@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>더블유컨셉 디자인</title>
+    <link href="../redesign3/aos/aos.css" rel="stylesheet">
+    <script src="../redesign3/aos/aos.js"></script>
+    <style>
+        @charset 'utf-8';
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            outline-style: none;
+        }
+
+        a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        img {
+            width: 100%;
+            
+        }
+
+        .wrap {
+            position: relative;
+            display: block;
+        }
+
+        .container {
+            position: relative;
+            display: block;
+            width: 1400px;
+            margin: 0 auto;
+        }
+    </style>
+    <script>
+        window.onload = function () {
+            AOS.init();
+        };
+    </script>
+</head>
+
+<body>
+    <div class="wrap">
+        <!-- 상단 -->
+        <header class="header">
+            <div class="container">
+                <img src="../redesign3/header.png" alt="" ></div>
+        </header>
+         <!-- 비주얼 -->
+         <header class="header">
+            <div class="container">
+                <img src="../redesign3/visual.png" alt="" data-aos="fade-down"></div>
+        </header>
+        <!--  신상-->
+        <section class="new">
+            <div class="container">
+                <img src="../redesign3/new.png" alt="신상" data-aos="fade-up">
+            </div>
+        </section>
+        <!--  중간 배너-->
+        <section class="exclusive">
+            <div class="container"><img src="../redesign3/exclusive.png" alt=""></div>
+        </section>
+        <!--  베스트 상품-->
+        <section class="best">
+            <div class="container">
+                <img src="../redesign3/best.png" alt=""data-aos="fade-up">
+            </div>
+        </section>
+        <!--  카테고리-->
+        <section class="category">
+            <div class="container">
+                <img src="../redesign3/category.png" alt="">
+            </div>
+        </section>
+        <!-- 공지사항-->
+        <section class="comm">
+            <div class="container">
+                <img src="../redesign3/comm.png" alt="" data-aos="fade-up">
+            </div>
+        </section>
+        <!-- 하단-->
+        <section class="footer">
+            <div class="container">
+                <img src="../redesign3/footer.png" alt="">
+            </div>
+        </section>
+</body>
+
+</html>

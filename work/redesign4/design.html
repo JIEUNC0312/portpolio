@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>더블유컨셉 디자인</title>
+    <link href="../redesign3/aos/aos.css" rel="stylesheet">
+    <script src="../redesign3/aos/aos.js"></script>
+    <style>
+        @charset 'utf-8';
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            outline-style: none;
+        }
+
+        a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        img {
+            width: 100%;
+            
+        }
+
+        .wrap {
+            position: relative;
+            display: block;
+        }
+
+        .container {
+            position: relative;
+            display: block;
+            width: 1400px;
+            margin: 0 auto;
+        }
+    </style>
+    <script>
+        window.onload = function () {
+            AOS.init();
+        };
+    </script>
+</head>
+
+<body>
+    <div class="wrap">
+        <!-- 상단 -->
+        <header class="header">
+            <div class="container">
+                <img src="../redesign4/header.png" alt="" ></div>
+        </header>
+         <!-- 비주얼 -->
+         <header class="visual">
+            <div class="container">
+                <img src="../redesign4/visual.png" alt="" data-aos="fade-up"data-aos-duration="2000"></div>
+        </header>
+        <!--  카테고리배너-->
+        <section class="cate-banner">
+            <div class="container">
+                <img src="../redesign4/banner.png" alt="신상" data-aos="fade-up"data-aos-duration="2000">
+            </div>
+        </section>
+        <!--  오늘의 집들이-->
+        <section class="today-house">
+            <div class="container">
+                <img src="../redesign4/todayhouse.png" alt="">
+            </div>
+        </section>
+        <!--  오늘의 상품-->
+        <section class="today product">
+            <div class="container">
+                <img src="../redesign4/today_product.png" alt=""data-aos="fade-up"data-aos-duration="1000">
+            </div>
+        </section>
+        <!--  리뷰-->
+        <section class="review">
+            <div class="container">
+                <img src="../redesign4/review.png" alt="">
+            </div>
+        </section>
+        <!-- 베스트상품-->
+        <section class="best">
+            <div class="container">
+                <img src="../redesign4/best.png" alt="" data-aos="fade-up"data-aos-duration="2000">
+            </div>
+        </section>
+        <!-- 하단-->
+        <section class="footer">
+            <div class="container">
+                <img src="../redesign4/footer.png" alt="">
+            </div>
+        </section>
+</body>
+
+</html>
